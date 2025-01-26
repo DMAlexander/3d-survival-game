@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://csy812ivins37"]
+
+[ext_resource type="Script" path="res://ui/custom_nodes/hotbar_slot.gd" id="1_okpco"]
+
+[node name="HotbarSlot" type="Node2D"]
+script = ExtResource("1_okpco")

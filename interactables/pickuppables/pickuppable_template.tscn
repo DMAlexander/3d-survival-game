@@ -1,0 +1,3 @@
+[gd_scene format=3 uid="uid://bgtnu0nd6y7lq"]
+
+[node name="PickuppableTemplate" type="Node2D"]

@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://dyehd2dhcyude"]
+
+[ext_resource type="Script" path="res://bulletins/bulletin.gd" id="1_ussgk"]
+
+[node name="BulletinTemplate" type="Node2D"]
+script = ExtResource("1_ussgk")

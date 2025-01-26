@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://c7qh4002tc1jt"]
+
+[ext_resource type="Script" path="res://bulletins/player_menus/player_menu_base.gd" id="1_l0guk"]
+
+[node name="PlayerMenuBase" type="Node2D"]
+script = ExtResource("1_l0guk")

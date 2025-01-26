@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://c0pynhdodlcpg"]
+
+[ext_resource type="Script" path="res://bulletins/player_menus/cooking_menu/cooking_menu.gd" id="1_76uq1"]
+
+[node name="CookingMenu" type="Node2D"]
+script = ExtResource("1_76uq1")

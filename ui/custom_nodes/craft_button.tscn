@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://32pidau6bq7p"]
+
+[ext_resource type="Script" path="res://ui/custom_nodes/craft_button.gd" id="1_ifh8m"]
+
+[node name="CraftButton" type="Node2D"]
+script = ExtResource("1_ifh8m")

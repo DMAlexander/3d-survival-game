@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://c7wcp3dxhakth"]
+
+[ext_resource type="Script" path="res://bulletins/settings_menu/settings_menu.gd" id="1_xpwsd"]
+
+[node name="SettingsMenu" type="Node2D"]
+script = ExtResource("1_xpwsd")

@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://8dyevkj57gtm"]
+
+[ext_resource type="Script" path="res://bulletins/player_menus/crafting_menu/crafting_menu.gd" id="1_nig4m"]
+
+[node name="CraftingMenu" type="Node2D"]
+script = ExtResource("1_nig4m")

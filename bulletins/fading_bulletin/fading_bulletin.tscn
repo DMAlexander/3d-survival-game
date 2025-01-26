@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://csf7ggp4ae8p6"]
+
+[ext_resource type="Script" path="res://bulletins/fading_bulletin/fading_bulletin.gd" id="1_8l2o5"]
+
+[node name="FadingBulletin" type="Node2D"]
+script = ExtResource("1_8l2o5")

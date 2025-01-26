@@ -1,0 +1,3 @@
+[gd_scene format=3 uid="uid://cgesln6manbuy"]
+
+[node name="EquippableTorch" type="Node2D"]

@@ -1,0 +1,3 @@
+[gd_scene format=3 uid="uid://bytiwj6p6hxp8"]
+
+[node name="EquippablePickaxe" type="Node2D"]
