@@ -1,3 +1,13 @@
 [gd_scene format=3 uid="uid://bagsexeenk0oa"]
 
-[node name="AnimalTemplate" type="Node2D"]
+[node name="AnimalTemplate" type="CharacterBody3D"]
+
+[node name="Timers" type="Node" parent="."]
+
+[node name="IdleTimer" type="Timer" parent="Timers"]
+
+[node name="WanderTimer" type="Timer" parent="Timers"]
+
+[node name="DisappearAfterDeathTimer" type="Timer" parent="Timers"]
+
+[node name="FleeTimer" type="Timer" parent="Timers"]

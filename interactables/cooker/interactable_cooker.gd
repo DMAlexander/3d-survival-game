@@ -26,8 +26,8 @@ func _ready() -> void:
 		fire_particles.emitting = true
 		fire_light.show()
 		audio_stream_player.play()
-		
-		
+
+
 func start_interaction() -> void:
 	EventSystem.BUL_create_bulletin.emit(
 		BulletinConfig.Keys.CookingMenu,
@@ -38,31 +38,31 @@ func start_interaction() -> void:
 			state
 		]
 	)
-	
-	
+
+
 func uncooked_item_added(recipe: CookingRecipeResource) -> void:
 	state = CookingStates.ReadyToCook
 	cooking_recipe = recipe
 	food_visuals_holder.add_child(cooking_recipe.uncooked_item_visuals.instantiate())
-	
+
 
 func uncooked_item_removed() -> void:
 	state = CookingStates.Inactive
 	cooking_recipe = null
 	clear_food_visuals()
-	
-	
+
+
 func cooked_item_removed() -> void:
 	state = CookingStates.Inactive
 	cooking_recipe = null
 	clear_food_visuals()
-	
-	
+
+
 func clear_food_visuals() -> void:
 	for child in food_visuals_holder.get_children():
 		child.queue_free()
-		
-		
+
+
 func start_cooking() -> void:
 	state = CookingStates.Cooking
 	cooking_timer.start(cooking_recipe.cooking_time)
@@ -71,8 +71,8 @@ func start_cooking() -> void:
 		fire_particles.emitting = true
 		fire_light.show()
 		audio_stream_player.play()
-		
-		
+
+
 func cooking_finished() -> void:
 	state = CookingStates.Cooked
 	clear_food_visuals()
@@ -81,16 +81,5 @@ func cooking_finished() -> void:
 		fire_particles.emitting = false
 		fire_light.hide()
 		audio_stream_player.stop()
-		
+	
 	food_visuals_holder.add_child(cooking_recipe.cooked_item_visuals.instantiate())
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	

@@ -1,4 +1,3 @@
-extends Node
 class_name VFXConfig
 
 enum Keys {

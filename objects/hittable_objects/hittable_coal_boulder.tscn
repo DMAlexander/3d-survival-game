@@ -1,0 +1,3 @@
+[gd_scene format=3 uid="uid://cike5cm7n4p0n"]
+
+[node name="HittableCoalBoulder" type="Node2D"]

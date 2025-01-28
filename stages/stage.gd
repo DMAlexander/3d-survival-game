@@ -7,7 +7,7 @@ signal loading_complete
 
 @export var show_mouse := false
 @export var music_to_play := MusicConfig.Keys.MainMenuSong
-@export var scatter_nodes: Array[Node3D] = []
+@export var scatter_nodes : Array[Node3D] = []
 
 var scatter_nodes_ready := 0
 
@@ -18,10 +18,10 @@ func _ready() -> void:
 	for scatter_mode in scatter_nodes:
 		if scatter_mode.has_signal("build_completed"):
 			scatter_mode.build_completed.connect(scatter_node_loaded)
-			
+	
 	if scatter_nodes.is_empty():
 		loading_complete.emit()
-		
+
 
 func scatter_node_loaded() -> void:
 	scatter_nodes_ready += 1

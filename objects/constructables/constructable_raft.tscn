@@ -1,0 +1,3 @@
+[gd_scene format=3 uid="uid://b50sgm5y4k22h"]
+
+[node name="ConstructableRaft" type="Node2D"]

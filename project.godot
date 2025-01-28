@@ -13,3 +13,7 @@ config_version=5
 config/name="3DSurvivalGame"
 config/features=PackedStringArray("4.3", "Forward Plus")
 config/icon="res://icon.svg"
+
+[autoload]
+
+EventSystem="*res://game/event_system.gd"

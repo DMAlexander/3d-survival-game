@@ -17,8 +17,8 @@ func _ready() -> void:
 	EventSystem.SFX_play_sfx.emit(SFXConfig.Keys.UIClick)
 	
 	super()
-	
-	
+
+
 func fade_in() -> void:
 	super()
 	
@@ -33,12 +33,12 @@ func _on_resume_button_pressed() -> void:
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
 	get_tree().paused = false
 	fade_out()
-	
-	
+
+
 func _on_settings_button_pressed() -> void:
 	EventSystem.BUL_create_bulletin.emit(BulletinConfig.Keys.SettingsMenu, true)
 	fade_out()
-	
-	
+
+
 func _on_exit_button_pressed() -> void:
 	EventSystem.STA_change_stage.emit(StageConfig.Keys.MainMenu)
